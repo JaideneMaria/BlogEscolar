@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Escolar</title>
+    <!-- href para CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Escolar</h1>
+        <nav>
+            <a href="#noticias">Notícias</a> |
+            <a href="#eventos">Eventos</a> |
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            
+        </section>
+
+        <section id="eventos">
+            
+        </section>
+
+        <section id="contato">
+            <h2>Envie sua opinião</h2>
+            <form>
+                <label for="mensagem">Sua mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea><br><br>
+
+                <label>
+                    <input type="checkbox" name="receber_novidades">
+                    Quero receber novidades por e-mail
+                </label><br><br>
+
+                <label for="turma">Sua turma:</label>
+                <select id="turma" name="turma">
+                    <option value="">Selecione...</option>
+                    <option value="1ano">1º Ano</option>
+                    <option value="2ano">2º Ano</option>
+                    <option value="3ano">3º Ano</option>
+                </select><br><br>
+
+                <button type="submit" id="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Blog Escolar - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- src para script -->
+    <script src="script.js"></script>
+</body>
+</html>
